@@ -63,5 +63,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 | Mockup                             | BusinessLogo Example usage                                                                                       |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| <img src="./_readme/mockup.png"  > | In differnt cards<img src="./_readme/usage1.png"> In a toolbar (smaller version)<img src="./_readme/usage2.png"> |
+| <img src="./_readme/mockup.png"  > | In different card versions <img src="./_readme/usage1.png"> In a toolbar (smaller version)<img src="./_readme/usage2.png"> |
 |                                    |
