@@ -38,7 +38,7 @@
       </div>
       <!-- Tags -->
       <div v-if="business.tags.length" class="px-3 d-flex align-center">
-        <v-chip class="elevation-1 mr-4 white">
+        <v-chip class="elevation-1 mr-3 white">
           <span class="text-truncate">{{ business.tags[0] }}</span>
         </v-chip>
         <span v-if="business.tags.length > 1" class="mb-1 tags-link">
@@ -46,10 +46,7 @@
         </span>
       </div>
       <!-- Description -->
-      <div
-        :class="business.tags.length ? '' : 'tags-placeholder'"
-        class="pt-1 px-3 pb-3"
-      >
+      <div :class="business.tags.length ? 'pb-3' : 'pb-5'" class="pt-1 px-3">
         <div class="business-description">
           {{ business.description }}
         </div>
@@ -147,7 +144,7 @@ export default {
     }
     .tags-link {
       color: $colorGrey2;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .business-description {
@@ -155,15 +152,6 @@ export default {
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
-    }
-
-    /* Space for the case with 0 tags */
-    .tags-placeholder {
-      padding-bottom: 78px !important;
-
-      @include md-and-up {
-        padding-bottom: 68px !important;
-      }
     }
   }
 }
