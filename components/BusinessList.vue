@@ -56,6 +56,14 @@ export default {
         nextEl: '.swiper-button-next',
       },
     },
+    breakpoint: {
+      640: {
+        slidesPerView: 'auto',
+      },
+      320: {
+        slidesPerView: 1,
+      },
+    },
   }),
 
   computed: {

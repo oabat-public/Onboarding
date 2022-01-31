@@ -1,5 +1,5 @@
 <template>
-  <v-card class="business-card contentOverflow">
+  <v-card class="business-card">
     <!-- City -->
     <v-chip class="px-2 business-city">
       <span>{{ city }}</span>
@@ -87,6 +87,9 @@ export default {
     logoSize: {
       width: '100px',
       height: '100px',
+      position: 'absolute',
+      top: '-80px',
+      left: '-20px',
     },
   }),
 
@@ -134,6 +137,9 @@ export default {
   }
 
   .business-content {
+    position: relative;
+    background-color: $colorPrimaryWhite;
+
     .like-btn {
       position: absolute;
       right: 28px;

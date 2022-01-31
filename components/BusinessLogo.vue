@@ -26,18 +26,9 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/_variables';
 @import '@/assets/_breakpoints';
-
 .business-logo {
-  position: absolute;
-  top: -80px;
-  left: 20px;
   background-color: $colorPrimaryWhite;
   border-radius: 25%;
-
-  @include md-and-up {
-    top: -170px;
-    left: -20px;
-  }
 
   img {
     display: block;
